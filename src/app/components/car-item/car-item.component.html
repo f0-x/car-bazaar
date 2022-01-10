@@ -1,0 +1,9 @@
+<div [ngClass]="{status: car.status}" class="car" (dblclick)="onToggle(car)">
+    <h3>{{car.brand}} 
+        <fa-icon 
+        [icon]="faTimes"
+        [ngStyle]="{color: 'red'}"
+        (click)="onDelete(car)">
+        </fa-icon> </h3>
+    <p>{{car.price | currency}}</p>
+</div>

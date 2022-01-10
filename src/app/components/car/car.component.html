@@ -1,0 +1,5 @@
+<app-add-car (onFormSubmit)="formSubmit($event)"></app-add-car>
+<h2> Market Listings</h2>
+<app-car-item *ngFor="let car of cars" [car]="car" (onDeleteCar)="deleteCar(car)"
+(onToggleStatus)="toggleStatus(car)">
+</app-car-item>

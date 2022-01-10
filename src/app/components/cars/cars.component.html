@@ -1,0 +1,8 @@
+<header>
+    <h1> {{title}} </h1>
+    <app-button *ngIf="isOnRoute('/')" 
+    color= "{{revealAddCar ? 'red' : 'purple'}}"
+    text="{{revealAddCar ? 'Close' : 'Add a Car'}}"
+    (btnClick)="toggleAddCar()"
+    ></app-button>
+</header>

@@ -1,0 +1,45 @@
+<form *ngIf="revealForm" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text"> Want to sell your car ?</label>
+    </div>
+    <div class="form-control">
+    <label for="brand">Brand Name</label>
+    <input
+      type="text"
+      name="brand"
+      [(ngModel)]="brand"
+      id="brand"
+      placeholder="Add Brand Name"
+    />
+  </div>
+<div class="form-control">
+    <label for="model">Model Name</label>
+    <input
+      type="text"
+      name="model"
+      [(ngModel)]="model"
+      id="model"
+      placeholder="Add Model Name"
+    />
+  </div>
+<div class="form-control">
+    <label for="price">Price</label>
+    <input
+      type="text"
+      name="price"
+      [(ngModel)]="price"
+      id="price"
+      placeholder="Add a price"
+    />
+  </div>
+<div class="form-control form-control-check">
+    <label for="day">Car's status</label>
+    <input
+      type="checkbox"
+      name="status"
+      [(ngModel)]="status"
+      id="status"
+    />
+  </div>
+  <input type="submit" value="Save Car" class="btn btn-block" />
+</form>
