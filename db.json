@@ -1,13 +1,6 @@
 {
   "cars": [
     {
-      "brand": "Bugatti",
-      "model": "Veyron",
-      "price": "23400000",
-      "status": false,
-      "id": 4
-    },
-    {
       "brand": "Mazda",
       "model": "Supra",
       "price": "234500",
@@ -18,8 +11,15 @@
       "brand": "Tata",
       "model": "Indigo ",
       "price": "2131423",
-      "status": true,
+      "status": false,
       "id": 6
+    },
+    {
+      "brand": "Honda",
+      "model": "Civic",
+      "price": "2345234234",
+      "status": true,
+      "id": 8
     }
   ]
 }
