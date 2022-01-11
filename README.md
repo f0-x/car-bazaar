@@ -1,5 +1,5 @@
 # Car Bazaar
-https://img.shields.io/github/license/f0-x/car-bazaar?style=for-the-badge
+![](https://img.shields.io/github/license/f0-x/car-bazaar?style=for-the-badge)
 
 ![](https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif)
 
