@@ -26,12 +26,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('car-sales');
   });
 
-// Useless Auto-generated test case below
-
-  it('should render title', () => {
+/*   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('car-sales app is running!');
-  });
+  }); */
 });
