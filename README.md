@@ -2,7 +2,9 @@
 ![](https://img.shields.io/github/license/f0-x/car-bazaar?style=for-the-badge)
 ![](https://img.shields.io/npm/v/angular?style=for-the-badge)
 
-![](https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif)
+<p align="center">
+  <img src="https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif" alt="animated" />
+</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
