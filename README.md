@@ -1,10 +1,11 @@
 # Car Bazaar
+![](https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Local Database Server
 
-Run `npm run server` for a local database server which simulates a remote database server using the npm's `json-server` package
+Run `npm run server` for a local database server which simulates a remote database server using the npm's [json-server](https://www.npmjs.com/package/json-server) package
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
