@@ -1,4 +1,6 @@
 # Car Bazaar
+https://img.shields.io/github/license/f0-x/car-bazaar?style=for-the-badge
+
 ![](https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
