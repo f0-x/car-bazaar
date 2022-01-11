@@ -3,6 +3,7 @@
 ![](https://img.shields.io/npm/v/angular?style=for-the-badge)
 
 A minimal car management application developed on Angular 13 with basic template & style rules that allows you to sell or buy your desired vehicles.
+It is hosted online at Firebase URL "https://car-bazaar-3cccc.web.app/" (Disclaimer: Firebase Realtime DBMS hasn't been yet configured so can't use the add/remove car feature yet)
 
 <p align="center">
   <img src="https://github.com/f0-x/car-bazaar/blob/master/car-bazaar-demo.gif" alt="animated" />
